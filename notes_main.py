@@ -103,7 +103,7 @@ def search_teg():
 }
 with open('notes_data.json', 'w', encoding = 'utf-8') as file:
     json.dump(notes, file)'''
-
+#Тело кода
 app = QApplication([])
 main_win = QWidget()
 main_win.resize(750, 500)
